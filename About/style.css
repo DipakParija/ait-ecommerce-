@@ -1,0 +1,164 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:arial;
+    /* header section starts here */
+}
+.header{
+    height:100px;
+    width:100%;
+    background-color:rgb(214, 211, 243);
+    position:sticky;
+    top:0;
+    
+}
+
+.himg{
+    position:absolute;
+    top:20px;
+    left:100px;
+}
+.hmat{
+    position:absolute;
+    top:40px;
+    left:50%;
+
+}
+a{
+    margin-left:50px;
+    text-decoration: none;
+    font-size:15px;
+    color:white;
+}
+/* header section ends here */
+
+/* banner section starts here */
+.banner{
+    background-image: url(/Assets/images/about/banner.png);
+    background-repeat: no-repeat;
+    background-size:100% 141%;
+    height:300px;
+    width:100%;
+}
+.banner .mat{
+    text-align:center;
+    padding-top:100px;
+}
+.banner h1{
+    font-size: 50px;
+  
+}
+
+/* banner section ends here */
+
+/* container one starts here */
+.cont-one{
+    display:flex;
+    gap:50px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cont-one .img{
+    background-image: url(/Assets/images/about/a6.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    height:600px;
+    width:600px;
+}
+.cont-one .mat{
+    height:400px;
+    width:600px;
+    padding-top: 150px;
+}
+.cont-one h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+
+
+/* content starts here */
+.content{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+/* content ends here */
+
+
+/* video starts here */
+/* .v{
+    height:600px;
+    width:700px;
+    background-color: aquamarine;
+} */
+ video{
+    height:600px;
+    width:300px;
+    margin-bottom:100px;
+    background-color: aqua;
+    border:2px solid black;
+    padding:50px;
+    margin-top: 50px;
+    margin-left: 550px;
+}
+/* video ends here */
+
+
+/* container two starts here */
+.cont-two{
+    display:flex;
+    gap:50px;
+    justify-content: center;
+}
+.cont-two img{
+    width:150px;
+}
+.cont-two .one{
+    border:1px solid gray;
+    height:150px;
+    width:150px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+.cont-two button{
+    height:28px;
+    width:92px;
+    margin-top:10px;
+    margin-left:27px;
+    border-radius:3px;
+}
+/* container two ends here */
+
+
+/* banner starts here */
+.ban-one{
+    margin-top: 50px;
+    background-color: rgb(10, 10, 100);
+    height:150px;
+    width:100%;
+}
+.ban-one .mat{
+    padding-top:30px;
+    padding-left:20px;
+}
+/* banner ends here */
+
+ /* footer starts here */
+ .footer{
+    margin-top:30px;
+    margin-bottom:50px;
+    display:flex;
+    gap:200px;
+    justify-content:center;
+  }
+  .footer img{
+    height:40px;
+    width:120px;
+  }
+ 
+  /* footer ends here */
+
+  pre{
+    margin-left: 500px;
+    margin-bottom:100px;
+  }

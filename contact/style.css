@@ -1,0 +1,141 @@
+
+*{
+    padding:0;
+    margin:0;
+    font-family: arial;
+}
+/* header section starts here */
+.header{
+    height:100px;
+    width:100%;
+    background-color:rgb(214, 211, 243);
+    position:sticky;
+    top:0;
+}
+.header .himg img{
+    height:50px;
+    width:150px;
+}
+
+.himg{
+    position:absolute;
+    top:20px;
+    left:100px;
+}
+.hmat{
+    position:absolute;
+    top:40px;
+    left:50%;
+
+}
+a{
+    margin-left:50px;
+    text-decoration: none;
+    font-size:15px;
+    color:white;
+}
+/* header section ends here */
+
+
+/* bannerone section starts here */
+.ban-one{
+    background-image: url(/Assets/images/about/banner.png);
+    background-repeat:no-repeat;
+    background-size: 100% 125%;
+    height:300px;
+    width:100%;
+}
+.ban-one .mat{
+    text-align: center;
+    padding-top: 100px;
+    color: blanchedalmond;
+   
+}
+/* bannerone section ends here */
+.ban-two{
+    display:flex;
+    gap:40px;
+    justify-content: center;
+}
+.ban-two .one{
+    padding-top:200px;
+}
+.one h5{
+    margin-top: -17px;
+    margin-left: 25px;
+}
+.ban-two .two{
+    background-image: url(/Assets/images/about/a4.png);
+    background-repeat:no-repeat;
+    background-repeat: 100% 90%;
+    height:600px;
+    width:600px;
+}
+
+/* container starts here */
+.container{
+    display:flex;
+    gap:10px;
+    justify-content: center;
+    /* align-items: flex-start; */
+    margin-top:50px;
+    border:2px solid black;
+    height:600px;
+    width:100%;
+    padding-top:100px;
+}
+.container .form{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.container .form input{
+    width:50%;
+    margin-bottom: 20px;
+    padding:12px 15px;
+    outline: none;
+    border-width: 1px;
+    border-style:solid;
+    border-color:black;
+    border-image: initial;
+}
+.container h3{
+    margin-top:-86px;
+    margin-left:136px;
+}
+.container pre{
+    margin-top:5px;
+    margin-left:132px;
+}
+/* container ends here */
+
+/* mid  starts here */
+.mid{
+    height:130px;
+    width:100%;
+    background-color:rgb(24, 24, 82);
+    margin-top:30px;
+ }
+ .mid .midmat{
+   color:white;
+   padding-top:50px;
+   padding-left:50px;
+ }
+ /* mid ends here */
+
+
+ /* footer starts here */
+ .footer{
+    margin-top:30px;
+    margin-bottom:100px;
+    display:flex;
+    gap:100px;
+    justify-content:center;
+  }
+  .footer img{
+    height:40px;
+    width:120px;
+  }
+ 
+  /* footer ends here */

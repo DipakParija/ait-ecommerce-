@@ -1,0 +1,335 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: arial;
+}
+
+/* header section starts here */
+.header{
+    height:100px;
+    width:100%;
+    background-color:rgb(214, 211, 243);
+    position:sticky;
+    top:0;
+}
+.header .himg img{
+    height:50px;
+    width:150px;
+}
+
+.himg{
+    position:absolute;
+    top:20px;
+    left:100px;
+}
+.hmat{
+    position:absolute;
+    top:40px;
+    left:50%;
+
+}
+a{
+    margin-left:50px;
+    text-decoration: none;
+    font-size:15px;
+    color:white;
+}
+/* header section ends here */
+
+/* header section starts here */
+.ban-one{
+    background-image: url(/Assets/images/hero4.png);
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    height:700px;
+    width:100%;
+    
+}
+.ban-mat{
+    padding-top:200px;
+    padding-left:200px
+}
+.ban-mat h5{
+    margin-top:-36px;
+    margin-left:80px;
+}
+.ban-mat h1{
+    font-size:50px;
+}
+.ban-mat h3{
+    font-size:30px;
+}
+/* header section ends here */
+
+
+
+/* container one starts here */
+.cont-one{
+    display:flex;
+    gap:50px;
+    justify-content: center;
+    margin-top: 100px;
+}
+.cont-one img{
+    width:150px;
+}
+.cont-one .one{
+    border:1px solid gray;
+    height:150px;
+    width:150px;
+    padding-top: 20px;
+    border-radius: 15px;
+}
+.cont-one button{
+    height:28px;
+    width:92px;
+    margin-top:10px;
+    margin-left:27px;
+    border-radius:3px;
+}
+/* container one ends here */
+
+
+/* content starts here */
+.content{
+    margin-top:50px;
+}
+.content h1 {
+    text-align: center;
+}
+.content p{
+    text-align: center;
+}
+/* content ends here */
+
+
+/* container two starts here */
+.cont-two{
+    display:flex;
+    gap:50px;
+    justify-content: center;
+    margin-top: 50px;
+   
+}
+.cont-two img{
+    width:250px;
+   border-radius: 15px;
+}
+.cont-two .two{
+    border:2px solid gray;
+    padding:10px;
+    height:320px;
+    border-radius: 15px;;
+}
+.cont-two p{
+    margin-left:200px;
+}
+.cont-two h4{
+    margin-top:-15px;
+}
+/* container two ends here */
+
+
+/* container three starts here */
+.cont-three{
+    display:flex;
+    gap:50px;
+    justify-content: center;
+    margin-top: 50px;
+   
+}
+.cont-three img{
+    width:250px;
+   border-radius: 15px;
+}
+.cont-three .three{
+    border:2px solid gray;
+    padding:10px;
+    height:320px;
+    border-radius: 15px;;
+}
+.cont-three p{
+    margin-left:200px;
+}
+.cont-three h4{
+    margin-top:-15px;
+}
+/* container three ends here */
+
+
+/* ban two starts here */
+.ban-two{
+    background-image: url(/Assets/images/banner/b2.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 120%;
+    height:230px;
+    width:100%;
+    margin-top:50px;
+}
+.ban-two .mat{
+    text-align: center;
+    padding-top:80px;
+}
+.ban-two button{
+    height:35px;
+    width: 100px;
+}
+/* banner two ends here */
+
+
+/* content two starts here */
+.contenttwo{
+    text-align: center;
+    margin-top: 50px;
+}
+.contenttwo h1{
+    font-size:50px;
+}
+/* content two ends here */
+
+
+/* container four starts here */
+.cont-four{
+    display:flex;
+    gap:50px;
+    justify-content: center;
+    margin-top: 50px;
+   
+}
+.cont-four img{
+    width:250px;
+   border-radius: 15px;
+}
+.cont-four .four{
+    border:2px solid gray;
+    padding:10px;
+    height:320px;
+    border-radius: 15px;;
+}
+.cont-four p{
+    margin-left:200px;
+}
+.cont-four h4{
+    margin-top:-15px;
+}
+/* container four ends here */
+
+
+/* container five starts here */
+.cont-five{
+    display:flex;
+    gap:50px;
+    justify-content: center;
+    margin-top: 50px;
+   
+}
+.cont-five img{
+    width:250px;
+   border-radius: 15px;
+}
+.cont-five .five{
+    border:2px solid gray;
+    padding:10px;
+    height:320px;
+    border-radius: 15px;;
+}
+.cont-five p{
+    margin-left:200px;
+}
+.cont-five h4{
+    margin-top:-15px;
+}
+/* container five ends here */
+
+
+/* banner four starts here */
+.ban-four{
+    display:flex;
+    gap:50px;
+    justify-content: center;
+    margin-top:50px;
+}
+.ban-four .one{
+    background-image: url(/Assets/images/banner/b10.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    height:300px;
+    width:600px;
+}
+.ban-four .two{
+    background-image: url(/Assets/images/banner/b17.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    height:300px;
+    width:600px;
+}
+.ban-four .mat{
+    padding-top:100px;
+    padding-left:50px;
+}
+.ban-four button{
+    height:34px;
+    width:100px;
+}
+/* banner four ends here */
+
+
+/* banner five starts here */
+.ban-five{
+    display:flex;
+    gap:90px;
+    justify-content:center;
+    margin-top: 50px;;
+}
+.ban-five .one{
+    background-image: url(/Assets/images/banner/b4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    height:180px;
+    width:350px;
+}
+.ban-five .two{
+    background-image: url(/Assets/images/banner/b7.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    height:180px;
+    width:350px;
+}
+.ban-five .three{
+    background-image: url(/Assets/images/banner/b18.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    height:180px;
+    width:350px;
+}
+.ban-five .mat{
+    padding-top:50px;
+    padding-left: 20px;
+}
+/* banner five ends here */
+.ban-six{
+    margin-top:50px;
+    height:150px;
+    width:100%;
+    background-color:rgb(5, 5, 74);
+}
+.ban-six .mat{
+    padding-top: 60px;
+    padding-left: 40px;
+}
+/* banner section ends here */
+
+
+/* footer section starts here */
+.footer{
+    margin-top:30px;
+    margin-bottom:100px;
+    display:flex;
+    gap:150px;
+    justify-content:center;
+  }
+  .footer img{
+    height:40px;
+    width:120px;
+  }
+  /* footer section ends here */
